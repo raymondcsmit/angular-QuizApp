@@ -1,0 +1,28 @@
+[
+    {
+    "QuestionID":1,
+"QuestionText": "Which is the largest country in the world by population?",
+"Options": ["India", "USA", "China", "Russia"],
+"CorrectAnswer": "China"
+},{
+    "QuestionID":2,
+"QuestionText": "When did the second world war end?",
+"Options": ["1945", "1939", "1944", "1942"],
+"CorrectAnswer": "1945"
+},
+   { "QuestionID":3,
+"QuestionText": "Which was the first country to issue paper currency?",
+"Options": ["USA","France","Italy","China"],
+"CorrectAnswer": "China"
+},
+   { "QuestionID":4,
+"QuestionText": "Which city hosted the 1996 Summer Olympics?",
+"Options": [ "Atlanta", "Sydney", "Athens", "Beijing"],
+"CorrectAnswer": "Atlanta"
+},
+   { "QuestionID":5,
+"QuestionText": "Who invented telephone?",
+"Options": [ "Albert Einstein", "Alexander Graham Bell", "Isaac Newton", "Marie Curie"],
+"CorrectAnswer": "Alexander Graham Bell"
+}
+      ]
