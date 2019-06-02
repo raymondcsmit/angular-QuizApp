@@ -1,13 +1,13 @@
 import { Component, OnInit, OnDestroy, AfterViewInit } from '@angular/core';
-import { GenericValidator } from 'src/app/validation/generic-validator';
+import { GenericValidator } from '../../validation/generic-validator';
 import { Subscription } from 'rxjs';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { QuestionService } from 'src/app/services/question.service';
-import { Question } from 'src/app/model/question';
+import { QuestionService } from '../../services/question.service';
+import { Question } from '../../model/question';
 import { Router } from '@angular/router';
-import { Utility } from 'src/app/validation/utility';
+import { Utility } from '../../validation/utility';
 import { ToastrService } from 'ngx-toastr';
-import { TestResult } from 'src/app/model/test-result';
+import { TestResult } from '../../model/test-result';
 
 @Component({
   selector: 'app-quiz',

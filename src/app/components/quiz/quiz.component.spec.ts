@@ -5,7 +5,7 @@ import { RouterTestingModule } from '@angular/router/testing';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
-import { QuestionService } from 'src/app/services/question.service';
+import { QuestionService } from '../../services/question.service';
 import { ToastrModule } from 'ngx-toastr';
 
 describe('QuizComponent', () => {
