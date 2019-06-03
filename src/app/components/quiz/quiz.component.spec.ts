@@ -37,7 +37,7 @@ let questionService:QuestionService;
 
   
 
-  it('should return an Observable<Array<Video>>',
+  it('should return an data>',
   inject([QuestionService], (quesService) => {
 
     quesService.getQuestions().subscribe((data) => {
